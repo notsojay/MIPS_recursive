@@ -1,4 +1,4 @@
-# mips_recursive
+# MIPS_recursive
 ## fib_recur:
 Complete fib_recur function, which recursively calculates the N-th Fibonacci number from a given positive integer input n. This is the high-level description of the recursive Fibonacci.
 
