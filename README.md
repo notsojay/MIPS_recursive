@@ -2,17 +2,12 @@
 1. Complete fib_recur function, which recursively calculates the N-th Fibonacci number from a given positive integer input n. This is the high-level description of the recursive Fibonacci.
 
 ```python
-	             def fib_recur(n):
-                   if n <= 1:
-                         return n;
-                   else:
-                         return fib_recur(n-1)+fib_recur(n-2);
+	           def fib_recur(n):
+                   	if n <= 1:
+                        	return n;
+                   	else:
+                        	 return fib_recur(n-1)+fib_recur(n-2);
 ```
-             def fib_recur(n):
-                   if n <= 1:
-                         return n;
-                   else:
-                         return fib_recur(n-1)+fib_recur(n-2);
 
 >> a0: the argument for the given positive integer input, n
 
@@ -23,14 +18,14 @@
  And this is the high-level description of the recursive Catalan.
  
 ```python
-	             def catalan_recur(n):
-                  if n <= 1:
-                      return 1;
-                  else:
-                      res = 0
-                  for i in range(n):  # i = 0 ~ (n-1)
-                      res += catalan_recur(i) * catalan_recur(n-i-1)
-                      return res;
+	          def catalan_recur(n):
+                  	if n <= 1:
+                      		return 1;
+                 	else:
+                      		res = 0
+                  	for i in range(n):  # i = 0 ~ (n-1)
+                      		res += catalan_recur(i) * catalan_recur(n-i-1)
+                      		return res;
 ```
 
 >> a0: the argument for the given positive integer input, n
