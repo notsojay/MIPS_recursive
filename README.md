@@ -11,7 +11,7 @@ Complete fib_recur function, which recursively calculates the N-th Fibonacci num
 ```
 >> a0: the argument for the given positive integer input, n
 
-## catalan_recur
+## catalan_recur:
 Complete catalan_recur function, which recursively calculates the N-th Catalan numberLinks to an external site. from a given positive integer input n. Catalan number sequence occurs in various counting problemsLinks to an external site.. The sequence can be recursively defined by the following equation.
 
 <img width="520" alt="截屏2023-03-14 04 02 10" src="https://user-images.githubusercontent.com/71242774/224981776-a0a10eeb-62e6-4905-a37e-f29550fa4969.png">
